@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Volte para a :page.",
 
-    "session_expired"       => "Sua sessão expirou, faça o login novamente.",
     "session_refresh"       => "Sua sessão expirou, atualize a página e tente novamente.",
 
     "general_error"         => "Um erro ocorreu. Por favor, tente novamente.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Proibido",
 
     "not_logged_exception"  => "<strong>Whoops! Alguma coisa correu mal.</strong><br />Por favor notifique o administrador do sistema se o erro persistir.",
-
-    "too_many_ticket_reqs"  => "Muitas solicitações de tickets feitas para: email. O limite é :max em :decay minutos.",
 
     "not_operator"          => "Algo deu errado. O operador selecionado não é válido, certifique-se de que pertençam a um grupo de operadores e que o grupo tenha uma função associada.",
 
@@ -167,5 +164,15 @@ return array(
      */
     "lock_timeout"          => "Lock Timeout",
     "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Sua sessão expirou, faça o login novamente.",
 
 );

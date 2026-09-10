@@ -83,9 +83,6 @@ return array(
     "help_php_extensions"       => "As extensões PHP diferem dependendo do servidor, do host e de outras variáveis do sistema. Para obter ajuda na instalação de extensões ausentes, entre em contato com o seu provedor de hospedagem ou administrador do servidor.",
     "help_php_settings"         => "Para obter assistência adicional, por favor leia a <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Ajuda das Configurações do PHP</a>.",
     "disabled_functions"        => "Funções desativadas",
-    "help_mysql_version"        => "Para obter ajuda na instalação de uma nova versão do MySQL, entre em contato com seu provedor de hospedagem ou administrador de servidor.",
-    "mysql_version"             => "Versão do MySQL",
-    "mysql_version_not_found"   => "Não disponível, versão MySQL encontrada: :version",
 
     /*
      * 2.1.0
@@ -110,7 +107,6 @@ return array(
      * 2.4.0
      */
     "mysql_server_version"      => "Versão do servidor > =:min",
-    "mysql_server_version_desc" => "MySQL :mínimo ou superior é necessário para executar o SupportPal. Encontrado: ':version'.",
 
     "upgrade_step"              => "Passo :num de :total: ",
     "accept_eula"               => "Aceitar o EULA",
@@ -195,7 +191,6 @@ return array(
      * 5.0.0
      */
     "mysql_client_version"      => "Versão do cliente > = :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "Versão do cliente MySQL :min ou superior (:mysqlnd_min for MySQLnd) é necessária para executar o SupportPal. Encontrado: ':version'.",
     "post_install"              => "Para que o sistema funcione corretamente, uma tarefa cron deve ser configurada. Leia nossas <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'> etapas de pós-instalação </a> para obter detalhes sobre esta e outras ações recomendadas para melhorar a funcionalidade e a segurança.",
     "help_allowed_methods"      => "Seu servidor da web deve permitir todos os métodos HTTP abaixo. Verifique nossa <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'> nova documentação de instalação </a> para obter mais informações.",
 
@@ -203,5 +198,22 @@ return array(
      * 5.3.0
      */
     "check_file_permissions"    => "Checking file permissions...",
+
+    /*
+     * 6.0.0
+     */
+    "mysql_server_version_desc" => "MySQL :mínimo ou superior é necessário para executar o SupportPal. Encontrado: ':version'.",
+    "help_mysql_version"        => "Para obter ajuda na instalação de uma nova versão do MySQL, entre em contato com seu provedor de hospedagem ou administrador de servidor.",
+    "mysql_version"             => "Versão do MySQL",
+    "mysql_version_not_found"   => "Não disponível, versão MySQL encontrada: :version",
+    "mysql_client_version_desc" => "Versão do cliente MySQL :min ou superior (:mysqlnd_min for MySQLnd) é necessária para executar o SupportPal. Encontrado: ':version'.",
+    "update_failed"             => "App update failed.",
+    "attempting_to_restore"     => "Attempting to restore from backup...",
+
+    /*
+     * 6.1.0
+     */
+    "freetype_support"          => "FreeType Support",
+    "upgrade_in_progress"       => "A system upgrade is in progress. The help desk will be unavailable until an administrator completes the upgrade. Please try again later.",
 
 );
